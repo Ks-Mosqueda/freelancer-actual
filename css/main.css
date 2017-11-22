@@ -1,36 +1,36 @@
 /*
  * Estilos de tu proyecto
  */
- body {
+ body { /* para eliminar bordes en el body*/
    margin: 0px;
    padding: 0px;
  }
- nav {
+ nav {  /* para dar estilo al nav del encabezado*/
    background: #2c3e50;
+   height: 110px;
    margin-bottom: 0px;
    padding: 0px;
    position: fixed;
    width: 100%;
-   height: 110px;
+
  }
 
- ul {
+ ul { /*para dar estilo al listado del nav*/
+   line-height: 80px;
    list-style: none;
    margin: 0;
-   padding: 0;
-   line-height: 80px;
-   overflow: auto;
    margin-right: 120px;
+   overflow: auto;
+   padding: 0;
  }
 
  a {          /*para dar estilo a los textos en el navegador*/
    color: white;
-   text-decoration: none;
    font-family: 'Montserrat', sans-serif;
    font-size: 17px;
    font-weight: bold;
+   text-decoration: none;
    text-transform: uppercase;
-
  }
 
  nav > section > p { /* para dar estilo al primer texto del navegador*/
@@ -43,7 +43,7 @@
    text-transform: uppercase;
  }
 
-section > div > h1 {
+section > div > h1 { /*para dar estilo a los textos h1*/
   font-size: 75px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -54,10 +54,10 @@ section > div > h5 {
 }
 
 .aqua > h3 {
-  outline: 1px solid white;
   display: block;
-  width: 150px;
   margin-left: 600px;
+  outline: 1px solid white;
+  width: 150px;
 }
 #portfolio > .portfolio {
   display: inline-block;
@@ -78,26 +78,27 @@ section > div > h5 {
    padding: 20px;
  }
 
-.aqua {
+.aqua { /*para dar estilo a la seccion con fondo aqua*/
   background: #18bc9c;
-  height: 600px;
-  padding-top:220px;
-  text-align: center;
   color: white;
+  height: 600px;
+  padding-top:180px;
+  text-align: center;
+
 }
 
 .portfolio > img {
   width: 300px;
 }
 
-.portfoliouno {
+.portfoliouno { /*para dar estilo y ubiocacion al texto portfolio*/
+  color: #2c3e50;
   display: block;
-  margin-left: 350px;
-  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color: #2c3e50;
+  margin-left: 350px;
+  padding: 10px;
 }
 
 .division {
@@ -106,18 +107,18 @@ section > div > h5 {
 
 .inputalign {
   display: block;
-  margin: 50px 150px;
   font-family: "Lato", sans-serif;
+  margin: 50px 150px;
 }
 
 .button {
   background-color: #18bc9c;
   color: white;
-  width: 60px;
-  font-family:serif;
-  text-align: center;
   margin-left: 150px;
   margin-top: 120px;
+  font-family:serif;
+  text-align: center;
+  width: 60px;
 }
 
 .backgroundfooter {
@@ -140,4 +141,15 @@ text-align: center;
 }
  .margin-left {
    margin-left: 300px;
+ }
+
+ .about {
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+ }
+
+ .aqua-1 {
+   padding-top: 100px;
  }
