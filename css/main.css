@@ -96,12 +96,19 @@ section > div > h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-left: 350px;
   padding: 10px;
+  text-align: center;
 }
 
 .division {
- margin-left: 450px;
+  background-color: black;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+}
+
+.center-division {
+  text-align: center;
 }
 
 .inputalign {
